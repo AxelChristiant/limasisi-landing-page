@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include the Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <title>Lima Sisi</title>
+</head>
+<body class="bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex flex-col items-center">
+          <a href="#" class="text-gray-800 text-2xl font-bold">Lima <span class="red-text">Sisi</span></a>
+        </div>
+        <div class="hidden md:block">
+          <ul class="ml-10 flex items-baseline space-x-4">
+            <li><a href="#" class="text-gray-600 hover:text-gray-800 active">Home</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Portfolio</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gray-900 text-white section">
+    <!-- <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+      <div class="md:flex md:items-center md:justify-between">
+        <div class="md:w-1/2">
+          <h1 class="text-4xl font-bold">Welcome to Our Architecture Site</h1>
+          <p class="mt-4 text-lg">We create beautiful and functional spaces that inspire.</p>
+          <a href="#" class="mt-6 inline-block bg-white text-gray-800 font-semibold py-3 px-6 rounded-lg shadow">Explore More</a>
+        </div>
+        <div class="mt-8 md:mt-0 md:w-1/2">
+          <img class="rounded-lg" src="architecture-image.jpg" alt="Architecture Image">
+        </div>
+      </div>
+    </div> -->
+    <div class="jumbotron-bg">
+    </div>
+
+    <div class="flex items-center justify-center h-screen ">
+      <div class="text-center">
+        <h1 class="text-8xl font-bold mb-9">We Are</h1>
+        <h1 class="typing-animation text-8xl font-bold mb-9"><span id="typingAnimation"></span></h1>
+        <p class="text-5x1 text-gray-200 mb-8">"Architecture is not just about creating a beautiful building; it's about creating a better world." - Bjarke Ingels.</p>
+        <a href="#" class="px-6 py-3 text-lg font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-20 section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid justify-items-stretch">
+      <div class="md:flex md:items-center md:justify-between">
+        <div class="w-1/2">
+          <h2 class="text-2xl font-bold section-title text-center w-2/5 pb-3 mb-5">Our Story</h2>  
+          <p class="mt-3 text-lg font-semibold">We are a team of experienced architects dedicated to creating exceptional designs. With a focus on functionality and aesthetics, we bring our clients' visions to life.</p>
+        </div>
+        <div class="mt-8 md:w-1/2 ">
+          <img class="rounded-lg max-w height-auto" src="assets\images\about.jpg" alt="About Image">
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section class="py-20 section" id="team-section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid justify-items-stretch">
+        <h2 class="text-3xl font-semibold text-center section-title w-1/5 justify-self-center pb-2 mb-9">Our Team</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-x-5 md:gap-y-14 sm:grid-cols-1">
+          <div>
+              <div class="our-team">
+                  <img src="assets/images/img-1.jpg" alt="">
+                  <div class="over-layer">
+                      <div class="team-content">
+                          <h3 class="title">Williamson</h3>
+                          <span class="post">web developer</span>
+                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                      </div>
+                  </div>
+                  <ul class="social-links">
+                      <li><a href="#" class="fab fa-twitter"></a></li>
+                      <li><a href="#" class="fab fa-linkedin"></a></li>
+                      <li><a href="#" class="fab fa-facebook"></a></li>
+                      <li><a href="#" class="fab fa-google-plus"></a></li>
+                  </ul>
+              </div>
+          </div>
+   
+          <div>
+              <div class="our-team">
+                  <img src="assets/images/img-1.jpg"  alt="">
+                  <div class="over-layer">
+                      <div class="team-content">
+                          <h3 class="title">Kristiana</h3>
+                          <span class="post">Web Designer</span>
+                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                      </div>
+                  </div>
+                  <ul class="social-links">
+                      <li><a href="#" class="fab fa-twitter"></a></li>
+                      <li><a href="#" class="fab fa-linkedin"></a></li>
+                      <li><a href="#" class="fab fa-facebook"></a></li>
+                      <li><a href="#" class="fab fa-google-plus"></a></li>
+                  </ul>
+              </div>
+          </div>
+  
+          <div>
+            <div class="our-team">
+                <img src="assets/images/img-1.jpg"  alt="">
+                <div class="over-layer">
+                    <div class="team-content">
+                        <h3 class="title">Williamson</h3>
+                        <span class="post">web developer</span>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                    </div>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#" class="fab fa-twitter"></a></li>
+                    <li><a href="#" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" class="fab fa-facebook"></a></li>
+                    <li><a href="#" class="fab fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+        <div>
+            <div class="our-team">
+                <img src="assets/images/img-1.jpg"  alt="">
+                <div class="over-layer">
+                    <div class="team-content">
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                    </div>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#" class="fab fa-twitter"></a></li>
+                    <li><a href="#" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" class="fab fa-facebook"></a></li>
+                    <li><a href="#" class="fab fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+      </div>
+      <div>
+        <div>
+            <div class="our-team">
+                <img src="assets/images/img-1.jpg"  alt="">
+                <div class="over-layer">
+                    <div class="team-content">
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                    </div>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#" class="fab fa-twitter"></a></li>
+                    <li><a href="#" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" class="fab fa-facebook"></a></li>
+                    <li><a href="#" class="fab fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+      </div>
+      <div>
+        <div>
+            <div class="our-team">
+                <img src="assets/images/img-1.jpg"  alt="">
+                <div class="over-layer">
+                    <div class="team-content">
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam debitis eligendi excepturi facere laudantium nulla sint sit ut voluptatibus.</p>
+                    </div>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#" class="fab fa-twitter"></a></li>
+                    <li><a href="#" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" class="fab fa-facebook"></a></li>
+                    <li><a href="#" class="fab fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+      </div>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="md:flex md:items-center md:justify-between">
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-semibold">Contact Us</h2>
+          <p class="mt-4 text-lg">Get in touch with us to discuss your project or any inquiries you may have. We'd love to hear from you!</p>
+        </div>
+        <div class="mt-8 md:mt-0 md:w-1/2">
+          <ul class="space-y-4">
+            <li>
+              <span class="block text-xl font-semibold">Address:</span>
+              <span>123 Main Street, City, Country</span>
+            </li>
+            <li>
+              <span class="block text-xl font-semibold">Phone:</span>
+              <span>+1 123-456-7890</span>
+            </li>
+            <li>
+              <span class="block text-xl font-semibold">Email:</span>
+              <span>info@example.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        <div>
+          &copy; 2023 Architecture Site. All rights reserved.
+        </div>
+        <div>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="text-gray-500 hover:text-white">Privacy Policy</a></li>
+            <li><a href="#" class="text-gray-500 hover:text-white">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
